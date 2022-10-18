@@ -2,12 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '* * * * *' # 
-# on:
-#   push:
-#     branches: [main]
-#   pull_request:
-#     branches: [main]
+    - cron: '* * * * *' 
 
 jobs:
   build:
